@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import ToyForm from "./ToyForm";
 import ToyContainer from "./ToyContainer";
+import ToyCard from "./ToyCard";
 
 function App() {
   const [showForm, setShowForm] = useState(false);
